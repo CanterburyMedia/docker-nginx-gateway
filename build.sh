@@ -1,7 +1,7 @@
 #!/bin/bash
 
 IMAGE_VERSION=1.11.2-r2
-IMAGE_NAME=flytreeleft/nginx-gateway
+IMAGE_NAME=canterburymedia/nginx-gateway
 
 docker build --rm -t ${IMAGE_NAME}:${IMAGE_VERSION} .
 #docker save ${IMAGE_NAME}:${IMAGE_VERSION} > nginx-gateway.img.tar

@@ -3,14 +3,14 @@
 DCR_IMAGE_VERSION=1.11.2-r1
 
 DCR_NAME=nginx-gateway
-DCR_IMAGE=flytreeleft/nginx-gateway:${DCR_IMAGE_VERSION}
+DCR_IMAGE=canterburymedia/nginx-gateway:${DCR_IMAGE_VERSION}
 
 DCR_VOLUME=/var/lib/nginx-gateway
 
 DEBUG=false
 ULIMIT=655360
 ENABLE_CUSTOM_ERROR_PAGE=true
-CERT_EMAIL=nobody@example.com
+CERT_EMAIL=tech@canterburymedia.net
 
 #ulimit -n ${ULIMIT}
 docker rm -f ${DCR_NAME}
